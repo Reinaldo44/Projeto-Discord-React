@@ -17,5 +17,5 @@ e o Supabase oferece uma bibloteca para fazer essa requicição com facilidade.
 
 O projeto foi hospedado no servidor da Vercel, e pode ser visto neste link:
 
-Link do Projeto: [React](https:/https://projeto-discord-react.vercel.app/)  
+Link do Projeto: [https:/https://projeto-discord-react.vercel.app/](https:/https://projeto-discord-react.vercel.app/)  
 
