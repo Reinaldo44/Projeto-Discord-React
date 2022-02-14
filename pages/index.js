@@ -19,9 +19,10 @@ function Titulo(props) {
      );
    }
 export default function PaginaInicial() {
-     // const username = 'omariosouto';
-     const [username, setUsername] = React.useState('omariosouto');
+     
+     const [username, setUsername] = React.useState('Reinaldo44');
      const roteamento = useRouter();
+     console.log(roteamento)
    
      return (
        <>
@@ -54,7 +55,7 @@ export default function PaginaInicial() {
                onSubmit={function (infosDoEvento) {
                  infosDoEvento.preventDefault();
                  console.log('Alguém submeteu o form');
-                 roteamento.push('/chat');
+                 roteamento.push(`/chat?username=${username}`);
                  // window.location.href = '/chat';
                }}
                styleSheet={{
